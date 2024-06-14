@@ -1,1 +1,3 @@
-console.log("Hello world!");
+// export * from "./index";
+import * as Quanta from "./index";
+export default Quanta;
