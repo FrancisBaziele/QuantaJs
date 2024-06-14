@@ -4,7 +4,7 @@ export class Body {
         this.mass = properties.mass || 1;
     }
 
-    update() {
-        this.shape.update();
+    update(bounds) {
+        this.shape.update(bounds);
     }
 }
